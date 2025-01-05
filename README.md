@@ -1,8 +1,13 @@
+<div align="center">
+
 # SuperuserKAM - JetBrains Theme
 
-![Build](https://github.com/iXORTech/SuperuserKAMTheme/workflows/Build/badge.svg)
-[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
-[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID.svg)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID)
+[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/iXORTech/SuperuserKAM-JetBrainsTheme/build.yml?style=for-the-badge&logo=github&&label=Build&labelColor=425563&color=80E0A7)](https://github.com/iXORTech/SuperuserKAM-JetBrainsTheme/actions/workflows/build.yml)
+[![Version](https://img.shields.io/jetbrains/plugin/v/MARKETPLACE_ID?style=for-the-badge&logo=jetbrains&label=JetBrains%20Plugin&labelColor=425563&color=80E0A7)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID?noRedirect=true)
+[![Downloads](https://img.shields.io/jetbrains/plugin/d/MARKETPLACE_ID?style=for-the-badge&logo=jetbrains&label=Plugin%20Downloads&labelColor=425563&color=80E0A7)](https://plugins.jetbrains.com/plugin/MARKETPLACE_ID?noRedirect=true)
+[![GitHub License](https://img.shields.io/github/license/iXORTech/SuperuserKAM-JetBrainsTheme?style=for-the-badge&logo=Github&labelColor=425563&color=80E0A7)](https://github.com/ImLynxie/Oxocarbon/blob/master/LICENSE)
+
+</div>
 
 This JetBrains IDE theme is a port to the IntelliJ Platform of the [Visual Studio Code Theme](https://github.com/JSchmiegel/SuperuserKAM-VSCodeTheme), made by [@JSchmiegel](https://github.com/JSchmiegel), originating from his [terminal theme](https://github.com/JSchmiegel/ColorSchemeSuperuserKAM) to match with the SuperuserKAM keycap design by [FreshFromTheGrave](https://geekhack.org/index.php?topic=108326.0%3Futm_source%3Dkeycapsets).
 
