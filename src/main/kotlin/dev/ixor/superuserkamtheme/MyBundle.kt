@@ -1,4 +1,4 @@
-package com.github.cubik65536.superuserkamtheme
+package dev.ixor.superuserkamtheme
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.cubik65536.superuserkamtheme.listeners
+package dev.ixor.superuserkamtheme.listeners
 
 import com.intellij.openapi.application.ApplicationActivationListener
 import com.intellij.openapi.diagnostic.thisLogger

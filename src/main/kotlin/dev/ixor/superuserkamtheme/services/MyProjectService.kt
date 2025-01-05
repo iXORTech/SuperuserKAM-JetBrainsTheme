@@ -1,9 +1,9 @@
-package com.github.cubik65536.superuserkamtheme.services
+package dev.ixor.superuserkamtheme.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.cubik65536.superuserkamtheme.MyBundle
+import dev.ixor.superuserkamtheme.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {
