@@ -47,7 +47,7 @@ To keep everything working, do not remove `<!-- ... -->` sections.
 
 - Manually:
 
-  Download the [latest release](https://github.com/iXORTech/SuperuserKAMTheme/releases/latest) and install it manually using
+  Download the [latest release](https://github.com/iXORTech/SuperuserKAM-JetBrainsTheme/releases/latest) and install it manually using
   <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
 
 
