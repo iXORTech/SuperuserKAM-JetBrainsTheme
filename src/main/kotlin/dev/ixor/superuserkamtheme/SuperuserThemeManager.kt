@@ -4,7 +4,7 @@ import com.intellij.ide.plugins.PluginManagerCore
 import com.intellij.openapi.extensions.PluginId
 import java.util.*
 
-class KAMThemeManager {
+class SuperuserThemeManager {
     companion object {
         private const val PLUGIN_ID : String = "dev.ixor.superuserkam-theme"
 
