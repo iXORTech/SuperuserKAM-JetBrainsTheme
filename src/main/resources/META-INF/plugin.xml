@@ -2,17 +2,40 @@
 <idea-plugin>
     <id>dev.ixor.superuserkam-theme</id>
     <name>SuperuserKAM Theme</name>
-    <vendor>cubik65536</vendor>
+    <vendor email="admin@ixor.dev" url="https://www.github.com/iXORTech">iXOR Technology</vendor>
+
+    <description>
+        <![CDATA[
+            <h2>SuperuserKAM - JetBrains Theme</h2>
+
+            <p>
+                This JetBrains IDE theme is a port to the IntelliJ Platform of the
+                <a href="https://github.com/JSchmiegel/SuperuserKAM-VSCodeTheme">Visual Studio Code Theme</a>,
+                made by <a href="https://github.com/JSchmiegel">@JSchmiegel</a>, originating from his
+                <a href="https://github.com/JSchmiegel/ColorSchemeSuperuserKAM">terminal theme</a> to match with the
+                SuperuserKAM keycap design by
+                <a href="https://geekhack.org/index.php?topic=108326.0%3Futm_source%3Dkeycapsets" rel="nofollow">FreshFromTheGrave</a>.
+            </p>
+        ]]>
+    </description>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
-
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="dev.ixor.superuserkamtheme.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="dev.ixor.superuserkamtheme.activities.SuperuserThemeStartupActivity"/>
+
+        <notificationGroup displayType="BALLOON" id="SuperuserKAM Theme Settings" isLogByDefault="true"/>
+
+        <themeProvider id="0af50000-3240-48bd-9372-98b8f1ad135d" path="/themes/SuperuserKAM.theme.json"/>
+        <bundledColorScheme id="5d38123b-2c02-409a-b2fb-e616e9f14e87" path="/colors/SuperuserKAM"/>
+
+        <applicationService
+                serviceImplementation="dev.ixor.superuserkamtheme.settings.SuperuserThemeVersionSettings"
+        />
     </extensions>
 
     <applicationListeners>
-        <listener class="dev.ixor.superuserkamtheme.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="dev.ixor.superuserkamtheme.listeners.ThemeChangeListenerImpl"
+                  topic="com.intellij.ide.ui.LafManagerListener"/>
     </applicationListeners>
 </idea-plugin>
